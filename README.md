@@ -18,6 +18,8 @@ Ever found yourself needing the fine-grained control and performance of Core Gra
 
 It showcases a common and practical technique using `UIViewRepresentable` to wrap a custom `UIView` (which handles Core Graphics drawing) so it can be seamlessly integrated and controlled within a SwiftUI view hierarchy.
 
+---
+
 ## The Core Technique: Bridging UIKit Drawing to SwiftUI
 
 SwiftUI is fantastic for building user interfaces quickly and declaratively. However, for complex, dynamic, or performance-sensitive custom drawing, UIKit's Core Graphics framework often provides more direct control.
@@ -30,6 +32,14 @@ The key to combining these worlds is the `UIViewRepresentable` protocol. It acts
 4.  **Coordinate:** (Optional) Handle delegates or callbacks from the `UIView`.
 
 This demo specifically applies this technique to integrate a view that performs custom drawing using Core Graphics.
+
+---
+
+## Demo
+
+![Demo_Pixel_Weaver_Demo](./MEDIA/Demo_Pixel_Weaver_Demo.mov)
+
+---
 
 ## How It Works: Architecture 🏗️
 
